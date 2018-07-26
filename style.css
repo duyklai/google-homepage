@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+    float: left;
+    width: 100%;
+    text-decoration: none;
+}
+
+#google-app{
+    width: 20px; height: 20px;
+    padding: 0;
+    margin: 0;
+    opacity: 0.75;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+.right{
+    float: right;
+}
+
+li a{
+    display: block;
+    float: left;
+    padding: 25px 20px;
+    color: grey;
+    text-decoration: none;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+.button{
+    background-color:#4285f4;
+    border-radius: 2px;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.logo-searchbar{
+    padding: 209px;
+    margin: auto;
+    display: block;
+}
+
+.logo{
+    width: 272px;
+    height: 92px;
+    margin: auto;
+    display: block;
+}
+
+.search-box{
+    display: block;
+    margin: 10px auto 0 auto;
+    width: 575px;
+    padding: 12px 12px;
+    border: 1px solid #e8e8e8;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px #dcdcdc;
+}
+
+.button-search{
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    padding-top: 18px;
+}
+
+#search, #lucky{
+    display: inline-block;
+    margin: 18px 3px;
+    padding: 10px 16px;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+
+#search:hover, #lucky:hover{
+    color: black;
+    background: #f1f1f1;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+#box{
+    border: none;
+    font-family: arial;
+    font-size: 14px;
+    width: 525px;
+    display: inline-block;
+    outline: none;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #f2f2f2;
+}
